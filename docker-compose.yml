@@ -25,6 +25,8 @@ services:
     volumes:
     - ./html:/usr/share/nginx/html
     user: www-data
+    depends_on:
+    - db
 
     
 
